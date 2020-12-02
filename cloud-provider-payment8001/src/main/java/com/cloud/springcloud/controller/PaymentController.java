@@ -1,10 +1,10 @@
-package com.cloud.springcloud.controller; /**
+package com.cloud.springcloud.alibaba.controller; /**
  * Created with IntelliJ IDEA By fty on 2020/11/3
  */
 
-import com.cloud.springcloud.entities.CommonResult;
-import com.cloud.springcloud.entities.Payment;
-import com.cloud.springcloud.service.PaymentService;
+import com.cloud.springcloud.alibaba.entities.CommonResult;
+import com.cloud.springcloud.alibaba.entities.Payment;
+import com.cloud.springcloud.alibaba.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
@@ -86,5 +86,9 @@ public class PaymentController {
         return serverPort ;
     }
 
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "hi ,i'am paymentzipkin server fall back，welcome to atguigu，O(∩_∩)O哈哈~";
+    }
 
 }

@@ -1,4 +1,4 @@
-package com.cloud.springcloud.lb;
+package com.cloud.springcloud.alibaba.lb;
 
 import org.springframework.cloud.client.ServiceInstance;
 

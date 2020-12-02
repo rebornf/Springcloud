@@ -1,4 +1,4 @@
-package com.cloud.springcloud.config;
+package com.cloud.springcloud.alibaba.config;
 
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;

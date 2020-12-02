@@ -1,6 +1,6 @@
-package com.cloud.springcloud.service;
+package com.cloud.springcloud.alibaba.service;
 
-import com.cloud.springcloud.entities.Payment;
+import com.cloud.springcloud.alibaba.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 /**

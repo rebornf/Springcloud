@@ -1,4 +1,4 @@
-package com.cloud.springcloud.config;
+package com.cloud.springcloud.alibaba.config;
 
 import feign.Logger;
 import org.springframework.context.annotation.Bean;

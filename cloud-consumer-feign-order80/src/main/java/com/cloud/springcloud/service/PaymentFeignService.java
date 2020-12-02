@@ -1,6 +1,6 @@
-package com.cloud.springcloud.service;
+package com.cloud.springcloud.alibaba.service;
 
-import com.cloud.springcloud.entities.CommonResult;
+import com.cloud.springcloud.alibaba.entities.CommonResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

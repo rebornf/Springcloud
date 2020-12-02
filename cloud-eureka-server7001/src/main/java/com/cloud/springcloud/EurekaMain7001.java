@@ -1,4 +1,4 @@
-package com.cloud.springcloud;
+package com.cloud.springcloud.alibaba;
 
 
 import org.springframework.boot.SpringApplication;

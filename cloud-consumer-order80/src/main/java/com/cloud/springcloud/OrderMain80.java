@@ -1,12 +1,10 @@
-package com.cloud.springcloud; /**
+package com.cloud.springcloud.alibaba; /**
  * Created with IntelliJ IDEA By fty on 2020/11/3
  */
 
-import com.cloud.myrule.MyselfRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  * @Author fty

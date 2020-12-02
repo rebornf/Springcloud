@@ -1,10 +1,10 @@
-package com.cloud.springcloud.service.impl; /**
+package com.cloud.springcloud.alibaba.service.impl; /**
  * Created with IntelliJ IDEA By fty on 2020/11/3
  */
 
-import com.cloud.springcloud.dao.PaymentDao;
-import com.cloud.springcloud.entities.Payment;
-import com.cloud.springcloud.service.PaymentService;
+import com.cloud.springcloud.alibaba.dao.PaymentDao;
+import com.cloud.springcloud.alibaba.entities.Payment;
+import com.cloud.springcloud.alibaba.service.PaymentService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

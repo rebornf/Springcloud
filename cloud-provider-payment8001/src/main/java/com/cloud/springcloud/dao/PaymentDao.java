@@ -1,6 +1,6 @@
-package com.cloud.springcloud.dao;
+package com.cloud.springcloud.alibaba.dao;
 
-import com.cloud.springcloud.entities.Payment;
+import com.cloud.springcloud.alibaba.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

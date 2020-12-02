@@ -1,4 +1,4 @@
-package com.cloud.springcloud.config; /**
+package com.cloud.springcloud.alibaba.config; /**
  * Created with IntelliJ IDEA By fty on 2020/11/3
  */
 

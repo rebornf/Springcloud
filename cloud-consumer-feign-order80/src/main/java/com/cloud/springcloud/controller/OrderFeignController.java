@@ -1,8 +1,8 @@
-package com.cloud.springcloud.controller;
+package com.cloud.springcloud.alibaba.controller;
 
-import com.cloud.springcloud.entities.CommonResult;
-import com.cloud.springcloud.entities.Payment;
-import com.cloud.springcloud.service.PaymentFeignService;
+import com.cloud.springcloud.alibaba.entities.CommonResult;
+import com.cloud.springcloud.alibaba.entities.Payment;
+import com.cloud.springcloud.alibaba.service.PaymentFeignService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

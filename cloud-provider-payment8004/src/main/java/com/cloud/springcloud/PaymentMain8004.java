@@ -1,6 +1,5 @@
-package com.cloud.springcloud;
+package com.cloud.springcloud.alibaba;
 
-import com.cloud.springcloud.entities.Payment;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

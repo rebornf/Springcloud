@@ -1,4 +1,4 @@
-package com.cloud.springcloud.service;
+package com.cloud.springcloud.alibaba.service;
 
 import org.springframework.stereotype.Component;
 

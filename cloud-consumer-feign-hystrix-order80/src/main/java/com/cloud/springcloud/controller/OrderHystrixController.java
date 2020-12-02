@@ -1,9 +1,8 @@
-package com.cloud.springcloud.controller;
+package com.cloud.springcloud.alibaba.controller;
 
-import com.cloud.springcloud.service.PaymentHystrixService;
+import com.cloud.springcloud.alibaba.service.PaymentHystrixService;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
